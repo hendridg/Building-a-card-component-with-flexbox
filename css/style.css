@@ -5,13 +5,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 :root {
   --blue: #05cbe9;
   --dark-blue: #111d4a;
-  --off-white: rgba(255,255,255,0.8);
+  --off-white: rgba(255, 255, 255, 0.8);
 }
 
 .card {
@@ -25,16 +24,15 @@ body {
 
 .card-img {
   object-fit: cover;
-/*   height: 150px; */
+  /*   height: 150px; */
   flex-basis: 200px;
-/*   esto de abajo es para arreglar la imagen, este error sale
+  /*   esto de abajo es para arreglar la imagen, este error sale
   solo con imagenes, y se arregla asi*/
   min-width: 0;
   min-height: 0;
-  
-  background: yellow;
- }
 
+  background: yellow;
+}
 
 .card-content {
   padding: 1em;
@@ -45,7 +43,7 @@ body {
 .card-title,
 .card-read-time,
 .card-btn {
-  font-family: "Blinker", sans-serif;
+  font-family: 'Blinker', sans-serif;
 }
 
 .card-title {
@@ -57,9 +55,9 @@ body {
 
 .card-body {
   font-size: 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.6;
-  }
+}
 
 .card-footer {
   display: flex;
@@ -90,23 +88,23 @@ body {
   font-size: 1.25em;
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px) {
   .card {
     flex-direction: row;
   }
-  .card-img{
-    height: 300px;
+  .card-img {
+    height: 301px;
   }
-  
+
   .card-title {
     font-size: 2.25rem;
   }
-  
+
   .card-body {
     font-size: 1.125rem;
     max-width: 500px;
   }
-  .card-footer{
+  .card-footer {
     margin-top: auto;
   }
 }
