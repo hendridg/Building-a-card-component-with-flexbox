@@ -19,7 +19,7 @@ To get a local copy up follow these simple example steps.
 
 ### Setup
 
-Open a terminal or a git bash in the desired directory and run `https://github.com/hendridg/portfolio-microverse.git`
+Open a terminal or a git bash in the desired directory and run `https://github.com/hendridg/Building-a-card-component-with-flexbox`
 
 👤 **Author1**
 
